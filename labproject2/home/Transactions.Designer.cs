@@ -116,13 +116,13 @@
             // 
             // ProceedBTN
             // 
-            this.ProceedBTN.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.ProceedBTN.BackColor = System.Drawing.SystemColors.Highlight;
             this.ProceedBTN.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ProceedBTN.ForeColor = System.Drawing.Color.White;
-            this.ProceedBTN.Location = new System.Drawing.Point(307, 449);
+            this.ProceedBTN.Location = new System.Drawing.Point(308, 438);
             this.ProceedBTN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ProceedBTN.Name = "ProceedBTN";
-            this.ProceedBTN.Size = new System.Drawing.Size(341, 48);
+            this.ProceedBTN.Size = new System.Drawing.Size(341, 59);
             this.ProceedBTN.TabIndex = 7;
             this.ProceedBTN.Text = "Proceed";
             this.ProceedBTN.UseVisualStyleBackColor = false;

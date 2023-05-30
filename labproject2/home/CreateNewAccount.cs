@@ -56,9 +56,9 @@ namespace VP_Project.home
         private void button1_Click_1(object sender, EventArgs e)
         {
             string name = NametextBox.Text;
-            int cnic = Convert.ToInt32(CNICtextBox.Text);
-            int phoneNo = Convert.ToInt32(PhoneNotextBox.Text);
-            string email = EmailtextBox.Text;
+            string cnic = CNICtextBox.Text;
+            string phoneNo = PhoneNotextBox.Text;
+            String email = EmailtextBox.Text;
             string address = AddresstextBox.Text;
             string query = "INSERT INTO custTable (name, cnic, phoneNo, email, address, dob) " +
                "VALUES (@Name, @CNIC, @PhoneNo, @Email, @Address, @DOB)";

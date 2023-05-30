@@ -51,7 +51,7 @@ namespace VP_Project.home
         private void ProceedBTN_Click(object sender, EventArgs e)
         {
             string bank = SelectbankCMB.SelectedItem.ToString();
-            int acc = Convert.ToInt32(amountTextBox.Text);
+            Int64 acc = Convert.ToInt64(amountTextBox.Text);
             string purpose = SelectPurposeOfPaymentCMB.SelectedItem.ToString();
             int amount = Convert.ToInt32(amountTextBox.Text);
             string query = "INSERT INTO bankTrasnferTable (purpose, amount, acc,bank) " +

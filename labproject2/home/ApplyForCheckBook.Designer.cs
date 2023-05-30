@@ -124,7 +124,7 @@
             this.ApplyBTN.Location = new System.Drawing.Point(279, 372);
             this.ApplyBTN.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ApplyBTN.Name = "ApplyBTN";
-            this.ApplyBTN.Size = new System.Drawing.Size(392, 53);
+            this.ApplyBTN.Size = new System.Drawing.Size(392, 59);
             this.ApplyBTN.TabIndex = 8;
             this.ApplyBTN.Text = "Apply";
             this.ApplyBTN.UseVisualStyleBackColor = false;
