@@ -65,5 +65,10 @@ namespace VP_Project.home
             this.Hide();
             home.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

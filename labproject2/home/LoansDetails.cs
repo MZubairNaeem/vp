@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VP_Project.menu;
 
 namespace VP_Project.home
 {
@@ -51,6 +52,14 @@ namespace VP_Project.home
                 }
             }
             LoansDataGridView.DataSource = customerTable;  // Replace dataGridView1 with your actual DataGridView control name
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            this.Hide();
+            home.Show();
 
         }
     }
