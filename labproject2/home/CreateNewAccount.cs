@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using System.Xml.Linq;
+using VP_Project.menu;
 
 namespace VP_Project.home
 {
@@ -89,6 +90,19 @@ namespace VP_Project.home
                 }
             }
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            this.Hide();
+            home.Show();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

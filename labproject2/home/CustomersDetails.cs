@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VP_Project.menu;
 
 namespace VP_Project.home
 {
@@ -73,6 +74,13 @@ namespace VP_Project.home
         private void CustomersDetails_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            this.Hide();
+            home.Show();
         }
     }
 }

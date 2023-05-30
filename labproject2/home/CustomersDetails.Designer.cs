@@ -35,6 +35,7 @@
             this.CNICTextBox = new System.Windows.Forms.TextBox();
             this.ViewBTN = new System.Windows.Forms.Button();
             this.deleteBTN = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.CustomersDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,12 +114,27 @@
             this.deleteBTN.UseVisualStyleBackColor = false;
             this.deleteBTN.Click += new System.EventHandler(this.deleteBTN_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(94, 131);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(143, 48);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // CustomersDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(982, 553);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.deleteBTN);
             this.Controls.Add(this.ViewBTN);
             this.Controls.Add(this.CNICTextBox);
@@ -145,5 +161,6 @@
         private TextBox CNICTextBox;
         private Button ViewBTN;
         private Button deleteBTN;
+        private Button button1;
     }
 }

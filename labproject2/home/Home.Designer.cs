@@ -35,6 +35,7 @@
             this.CheckBoolBTN = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.LoanDetailsBTN = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Homelabel
@@ -131,12 +132,27 @@
             this.LoanDetailsBTN.UseVisualStyleBackColor = false;
             this.LoanDetailsBTN.Click += new System.EventHandler(this.LoanDetailsBTN_Click);
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(402, 462);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(208, 59);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(982, 553);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.LoanDetailsBTN);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.CheckBoolBTN);
@@ -162,5 +178,6 @@
         private Button CheckBoolBTN;
         private Button button5;
         private Button LoanDetailsBTN;
+        private Button button1;
     }
 }

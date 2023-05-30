@@ -38,6 +38,8 @@
             this.PhoneNotextBox = new System.Windows.Forms.TextBox();
             this.ApplyLoanBTN = new System.Windows.Forms.Button();
             this.amounttextBox = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // NameLBL
@@ -140,12 +142,41 @@
             this.amounttextBox.Size = new System.Drawing.Size(212, 27);
             this.amounttextBox.TabIndex = 10;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(716, 433);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(208, 59);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Exit";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(39, 433);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(208, 59);
+            this.button2.TabIndex = 19;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Loan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(982, 553);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.amounttextBox);
             this.Controls.Add(this.ApplyLoanBTN);
             this.Controls.Add(this.PhoneNotextBox);
@@ -177,5 +208,7 @@
         private TextBox PhoneNotextBox;
         private Button ApplyLoanBTN;
         private TextBox amounttextBox;
+        private Button button1;
+        private Button button2;
     }
 }

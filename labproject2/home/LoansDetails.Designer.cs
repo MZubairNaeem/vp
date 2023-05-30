@@ -34,6 +34,7 @@
             this.LoansDataGridView = new System.Windows.Forms.DataGridView();
             this.ViewBTN = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.LoansDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,12 +105,26 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(202, 193);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(154, 44);
+            this.button2.TabIndex = 17;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // LoansDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(982, 553);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ViewBTN);
             this.Controls.Add(this.LoansDataGridView);
@@ -133,5 +148,6 @@
         private DataGridView LoansDataGridView;
         private Button ViewBTN;
         private Button button1;
+        private Button button2;
     }
 }
