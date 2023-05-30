@@ -129,6 +129,7 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "CustomersDetails";
             this.Text = "CustomersDetails";
+            this.Load += new System.EventHandler(this.CustomersDetails_Load);
             ((System.ComponentModel.ISupportInitialize)(this.CustomersDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

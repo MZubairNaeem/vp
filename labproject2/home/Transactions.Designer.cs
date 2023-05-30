@@ -124,6 +124,7 @@
             this.ProceedBTN.TabIndex = 7;
             this.ProceedBTN.Text = "Proceed";
             this.ProceedBTN.UseVisualStyleBackColor = false;
+            this.ProceedBTN.Click += new System.EventHandler(this.ProceedBTN_Click);
             // 
             // label3
             // 

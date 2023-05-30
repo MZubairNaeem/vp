@@ -69,5 +69,10 @@ namespace VP_Project.home
 
 
         }
+
+        private void CustomersDetails_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
