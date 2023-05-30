@@ -62,5 +62,10 @@ namespace VP_Project.home
             home.Show();
 
         }
+
+        private void LoansDetails_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
